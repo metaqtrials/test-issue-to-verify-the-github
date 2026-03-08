@@ -1,0 +1,21 @@
+{
+  "taskId": "00393fa0-ada5-41fb-8516-bd2ce4aa1fde",
+  "createdAt": "2026-03-08T22:32:08.312Z",
+  "stories": [
+    {
+      "id": "AC-1",
+      "criterion": "`npm test` passes with 0 failures (including new test)",
+      "passes": false
+    },
+    {
+      "id": "AC-2",
+      "criterion": "`tests/integration/pipeline-verification.test.ts` exists and contains \"Pipeline verification\" comment",
+      "passes": false
+    },
+    {
+      "id": "AC-3",
+      "criterion": "`npm run build` succeeds with 0 TypeScript errors",
+      "passes": false
+    }
+  ]
+}

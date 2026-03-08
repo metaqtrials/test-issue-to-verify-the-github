@@ -1,0 +1,14 @@
+{
+  "name": "test-issue-to-verify-the-github",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:integration": "vitest run tests/integration",
+    "build": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.0",
+    "typescript": "^5.0.0"
+  }
+}
